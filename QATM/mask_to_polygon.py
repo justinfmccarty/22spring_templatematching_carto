@@ -7,6 +7,9 @@ import cv2 # import opencv
 # if this is the case then play around with inverting the contour
 # https://stackoverflow.com/questions/57965493/how-to-convert-numpy-arrays-obtained-from-cv2-findcontours-to-shapely-polygons
 
+# a more complex method
+# https://github.com/michhar/python-jupyter-notebooks/blob/master/datatools/DealingWithGeospatialImages.ipynb 
+
 def mask_to_polygon(img):
     
     # apply the cv2 find contours function to the "img" (this is the binary mask array you created)
