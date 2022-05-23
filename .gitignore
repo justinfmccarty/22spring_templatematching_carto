@@ -1,0 +1,4 @@
+RL*.code-workspace
+rl_method/data/*
+rl_method/data/testing/*.ai
+rl_method/models/*
