@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "sheet_origins",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::21781" } },
+"features": [
+{ "type": "Feature", "properties": { "sheet": "1132_1989", "xcoord": 690000.0, "ycoord": 230000.0 }, "geometry": { "type": "Point", "coordinates": [ 690000.0, 230000.0 ] } },
+{ "type": "Feature", "properties": { "sheet": "1111_1988", "xcoord": 672500.0, "ycoord": 242000.0 }, "geometry": { "type": "Point", "coordinates": [ 672500.0, 242000.0 ] } },
+{ "type": "Feature", "properties": { "sheet": "1092_1990", "xcoord": 690000.0, "ycoord": 254000.0 }, "geometry": { "type": "Point", "coordinates": [ 690000.0, 254000.0 ] } }
+]
+}

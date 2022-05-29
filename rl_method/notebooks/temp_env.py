@@ -22,7 +22,13 @@ import utils
 
 
 class TemplateMatchingEnv(gym.Env):
-    def __init__(self, image_path, temp_loc, obs_shape_mult=(3,3),compare_method='SSD',sim_threshold=1000,print_st=False):
+    def __init__(self, 
+                 image_path, 
+                 temp_loc, 
+                 obs_shape_mult=(3,3),
+                 compare_method='SSD',
+                 sim_threshold=1000,
+                 print_st=False):
         super(TemplateMatchingEnv, self).__init__()
 
         self.print_st = print_st
@@ -268,7 +274,7 @@ class TemplateMatchingEnv(gym.Env):
             self.previous_action = self.action
             self.updated_point = utils.tuple_addition(self.previous_point,self.movement)
             self.log_points.append(self.updated_point)
-            self.log_moves.append(self.action)#utils.get_action_meanings()[self.action])
+            self.log_moves.append(utils.get_action_meanings()[self.action])
             # move the frame by the action movements (this is really a recropping)
             # if self.moves_taken==0:
             #     pass
