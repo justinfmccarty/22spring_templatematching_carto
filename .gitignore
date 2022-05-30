@@ -3,3 +3,4 @@ rl_method/data/*
 rl_method/data/testing/*.ai
 rl_method/models/*
 QATM/notebooks/shape_tests/*
+QATM/notebooks/evaluate/*.tif
