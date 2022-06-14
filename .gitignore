@@ -4,7 +4,6 @@ rl_method/data/testing/*.ai
 rl_method/models/*
 QATM/notebooks/shape_tests/*
 QATM/notebooks/evaluate/*.tif
-<<<<<<< HEAD
 QATM/notebooks/evaluate/alpha_testing/loop/archive/*
 QATM/notebooks/evaluate/alpha_testing/loop/error_arrays/*
 QATM/notebooks/evaluate/alpha_testing/loop/geotif/*
@@ -12,5 +11,3 @@ QATM/notebooks/evaluate/alpha_testing/loop/masks/*
 QATM/notebooks/evaluate/alpha_testing/loop/*.png
 QATM/notebooks/evaluate/alpha_testing/loop/score_arrays/*
 QATM/notebooks/evaluate/alpha_testing/loop/shapes/*
-=======
->>>>>>> parent of ab5f513 (Alpha Decision Making)
